@@ -1,8 +1,8 @@
 {
-  "name": "login",
+  "name": "login_page",
   "version": "0.1.0",
   "private": true,
-  "dependencies": {
+  "dependencies": {    
     "react": "^15.6.1",
     "react-dom": "^15.6.1",
     "react-scripts": "1.0.13"

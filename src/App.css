@@ -59,6 +59,10 @@ body, html {
   padding-left: 50px;
 }
 
+.error {
+  color: #da291c
+}
+
 .Login-password-forgot {
   margin: 25px 0;
   padding-left: 45%;          

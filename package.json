@@ -2,7 +2,8 @@
   "name": "login_page",
   "version": "0.1.0",
   "private": true,
-  "dependencies": {    
+  "dependencies": {
+    "antd": "^2.13.0",
     "react": "^15.6.1",
     "react-dom": "^15.6.1",
     "react-scripts": "1.0.13"
@@ -14,7 +15,7 @@
     "eject": "react-scripts eject",
     "deploy": "git push deis master"
   },
-  "devDependencies": {
+  "devDependencies": {    
     "jquery": "^3.2.1"
   }
 }

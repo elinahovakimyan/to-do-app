@@ -1,0 +1,66 @@
+@import '~antd/dist/antd.css';
+@import url('https://fonts.googleapis.com/css?family=Kranky');
+@import url('https://fonts.googleapis.com/css?family=Caveat+Brush');
+
+
+html,
+body {
+  background: #fffef4 !important;
+  font-family: 'Caveat Brush', cursive;
+
+}
+
+h1 {
+  color: #0d85aa !important;
+  text-align: center;
+  font-size: 50px;
+  font-family: 'Kranky', cursive;
+}
+
+.add {
+  text-align: center;
+  margin: 50px;
+}
+
+input {
+  margin: 20px 2px 20px 15px;
+  padding: 5px 10px;
+  font-size: 16px;
+  border-radius: 10px;
+  border: 1px solid #9097a0;
+  outline: none;
+  width: 60%;
+}
+
+.todoStyle {
+  margin: 0 auto;
+  display: block;
+  text-align: center;
+}
+
+.items {
+  display: inline-block;
+  list-style: none;
+  padding-left: 0;
+  text-align: left;
+} 
+
+.items li {
+  font-size: 24px;
+}
+
+.items li::before {
+  content: "✓ ";
+  color: #0d85aa;
+  margin-bottom: 20px;
+}
+
+.filterTag button {
+  margin-top: 40px;
+  font-size: 18px;
+  
+}
+
+.filterTag button:hover {
+  background-color: #def4fc;
+}
